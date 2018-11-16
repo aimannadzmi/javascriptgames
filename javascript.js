@@ -36,6 +36,6 @@
 		"<ol>Losses : " + losses + "</ol>" +
 		"<ol>Your Guesses:" + resetGuess.join("") + "</ol>";
 
-	document.querySelector("#scoreboard").innerHTML = updateScoreboard;
+	document.querySelector(".scoreboard").innerHTML = updateScoreboard;
 
 	};
